@@ -28,3 +28,18 @@ code {
   margin-left: 30px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  .navbar {
+    height: 7vh;
+    padding-top: 12px;
+    padding-bottom: 5px;
+  }
+
+  .logoImg {
+    width: 130px;
+    margin-left: 10px;
+  }
+}
