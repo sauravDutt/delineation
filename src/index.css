@@ -15,12 +15,14 @@ code {
 }
 
 .navbar {
-  background-color: rgba(31, 45, 58, 0.36);
+  position: fixed;
+  background-color: rgba(31, 45, 58, 0.505);
   width: 100%;
   height: 8vh;
   padding-top: 13px;
   padding-bottom: 3px;
-  position: fixed;
+
+  /* box-shadow: 0px 15px 40px -16px #ffffff3a; */
 }
 
 .logoImg {
@@ -29,6 +31,16 @@ code {
   cursor: pointer;
 }
 
+.game-screen {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  background-color: rgba(31, 45, 58, 0.505);
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-top: 20vh;
+  /* border: 2px solid #551de19d; */
+}
 
 @media screen and (max-width: 500px) {
 
@@ -41,5 +53,11 @@ code {
   .logoImg {
     width: 130px;
     margin-left: 10px;
+  }
+
+  .game-screen {
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 15vh;
   }
 }
