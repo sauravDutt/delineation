@@ -25,6 +25,11 @@ code {
   /* box-shadow: 0px 15px 40px -16px #ffffff3a; */
 }
 
+.innerNavbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .logoImg {
   width: 150px;
   margin-left: 30px;
