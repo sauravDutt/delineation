@@ -30,7 +30,7 @@ code {
   cursor: pointer;
 }
 
-.game-screen {
+/* .game-screen {
   position: absolute;
   width: 350px;
   height: 250px;
@@ -38,7 +38,7 @@ code {
   border-radius: 5px;
   margin-left: 10%;
   margin-top: 20vh;
-}
+} */
 
 @media screen and (max-width: 500px) {
 
@@ -53,8 +53,8 @@ code {
     margin-left: 10px;
   }
 
-  .game-screen {
+  /* .game-screen {
     width: 250px;
     height: 150px;
-  }
+  } */
 }
