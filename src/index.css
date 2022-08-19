@@ -26,7 +26,7 @@ code {
 }
 
 .innerNavbar {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: -2px;
 }
@@ -34,31 +34,18 @@ code {
 .navbarBtn {
   background-color: transparent;
   border: none;
-  color: #551de2ad;
+  color: #551de2;
   font-size: 25px;
   float: right;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 6px;
+  margin-top: 10px;
   padding: 5px;
   margin-right: 10px;
 }
 
-.navbarBtnEarth {
-  background-color: transparent;
-  border: none;
-  float: right;
-  margin-top: 5px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.earthImg {
-  width: 35px;
-}
-
 .navbarBtn:hover {
-  color: #551de2;
+  color: #ffffffe6;
 }
 
 .logoImg {
@@ -89,7 +76,9 @@ code {
     width: 130px;
     margin-left: 10px;
   }
-
+  .navbarBtn {
+    margin-top: 6px;
+  }
   /* .game-screen {
     width: 250px;
     height: 150px;
