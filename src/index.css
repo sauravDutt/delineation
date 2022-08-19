@@ -14,6 +14,12 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: "Logo";
+  src: url("./TheHistoriaDemo.otf");
+  font-style: normal;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -60,14 +66,44 @@ code {
   margin-left: 5%;
   height: 80vh;
 }
+
+h1 {
+  float: right;
+  color: #ffffffb0;
+  font-family: 'Logo';
+  z-index: -1;
+  font-size: 100px;
+  font-weight: 100;
+  margin-right: 29%;
+  user-select: none;
+  margin-top: -46vh;
+}
+h2 {
+  font-size: 40px;
+  color: #551de236;
+  margin-right: 40%;
+  user-select: none;
+  margin-top: -29vh;
+  float: right;
+}
+
+.letter {
+  font-size: 130px;
+}
+.letterTwo  {
+  font-size: 40px;
+  
+}
 .game-screen {
   width: 350px;
+  opacity: 1;
+  z-index: 699;
   height: 250px;
-  background-color: rgba(255, 255, 255, 0.294);
+  background-color: rgba(0, 0, 0, 0.214);
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 20%;
-  margin-left: 70px;
+  margin-left: 270px;
 }
 
 @media screen and (max-width: 500px) {
@@ -85,8 +121,21 @@ code {
   .navbarBtn {
     margin-top: 6px;
   }
+  h1 {
+    font-size: 70px;
+    margin-right: 10px;
+    margin-top: -30vh;
+  }
+  .letter {
+    font-size: 80px;
+  }
+  h2 {
+    margin-top: -18vh;
+    margin-right: 100px;
+  }
   .game-screen {
     width: 250px;
     height: 150px;
+    margin-left: 20px;
   }
 }
