@@ -53,16 +53,22 @@ code {
   margin-left: 30px;
   cursor: pointer;
 }
-
-/* .game-screen {
+.gameScreenOuter {
+  width: 90%;
   position: absolute;
+  margin-top: 10vh;
+  margin-left: 5%;
+  height: 80vh;
+}
+.game-screen {
   width: 350px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.294);
   border-radius: 5px;
-  margin-left: 10%;
-  margin-top: 20vh;
-} */
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-left: 70px;
+}
 
 @media screen and (max-width: 500px) {
 
@@ -79,8 +85,8 @@ code {
   .navbarBtn {
     margin-top: 6px;
   }
-  /* .game-screen {
+  .game-screen {
     width: 250px;
     height: 150px;
-  } */
+  }
 }
