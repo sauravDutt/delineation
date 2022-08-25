@@ -17,9 +17,10 @@ header {
 .subLogo {
     position: absolute;
     width: 100px;
-    margin-left: -4%;
-    margin-top: -5%;
+    margin-left: -5px;
+    margin-top: -20px;
     z-index: 0;
+    user-select: none;
 }
 
 .logoImg {
@@ -29,7 +30,8 @@ header {
     background-color: #1212123c;
     width: 150px;
     z-index: 2000;
-    margin-left: 30px;
+    margin-left: 60px;
+    user-select: none;
 }
 .walletBtn {
     background: transparent;
@@ -43,4 +45,16 @@ header {
 }
 .walletBtn:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+
+    .subLogo {
+        width: 100px;
+        margin-left: -4%;
+        margin-top: -5%;
+    }
+    .logoImg {
+        margin-left: 50px;
+    }
 }
