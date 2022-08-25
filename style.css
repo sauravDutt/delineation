@@ -9,7 +9,7 @@ header {
     margin: 0;
     margin-left: -2%;
     padding: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
     /* background-color: #000;
     box-shadow: 0 0 0 100vmax #000; */
     clip-path: inset(0 -100vmax);
@@ -47,6 +47,21 @@ header {
     color: #fff;
 }
 
+.landing {
+    position: absolute;
+    width: 90%;
+    margin-left: 3%;
+    height: 70vh;
+    margin-top: 90px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.gifTwo {
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
 @media screen and (max-width: 800px) {
 
     .subLogo {
@@ -56,5 +71,9 @@ header {
     }
     .logoImg {
         margin-left: 50px;
+    }
+    .gifTwo {
+        margin-top: 70%;
+        margin-left: 10%;
     }
 }
