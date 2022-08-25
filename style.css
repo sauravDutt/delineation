@@ -14,16 +14,27 @@ header {
     box-shadow: 0 0 0 100vmax #000; */
     clip-path: inset(0 -100vmax);
 }
-
-.logoImg {
-    width: 150px;
-    margin-left: 3%;
+.subLogo {
+    position: absolute;
+    width: 100px;
+    margin-left: -4%;
+    margin-top: -5%;
+    z-index: 0;
 }
 
+.logoImg {
+    position: relative;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #1212123c;
+    width: 150px;
+    z-index: 2000;
+    margin-left: 30px;
+}
 .walletBtn {
     background: transparent;
-    margin-top: 15px;
-    margin-right: 3%;
+    margin-top: 20px;
+    margin-right: 6%;
     border: none;
     font-size: 25px;
     color: #561DE2;
