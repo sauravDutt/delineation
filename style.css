@@ -99,19 +99,19 @@ rgba(255, 255, 255, 0.004) */
 }
 .footer h3 {
     font-family: 'Logo';
-    font-size: 35px;
+    font-size: 40px;
     margin: 0;
     margin-top: 20px;
     text-align: center;
     padding: 0;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.751);
     font-weight: 100;
 }
 .club {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 .info {
     text-align: justify;
