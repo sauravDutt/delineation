@@ -1,6 +1,11 @@
 body {
     background-color: #121212;
 }
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
 header {
     position: fixed;
     z-index: 696969;
