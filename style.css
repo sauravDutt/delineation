@@ -126,8 +126,26 @@ rgba(255, 255, 255, 0.004) */
     float: right;
 }
 
-@media screen and (max-width: 800px) {
+footer {
+    display: none;
+    width: 110%;
+    margin-left: -5%;
+    height: 29vh;
+    overflow: hidden;
+    background-image: url("./img/three.GIF");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footerGif {
+    margin-top: -130px;
+    width: 100%;
+}
 
+@media screen and (max-width: 800px) {
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     .subLogo {
         width: 100px;
         margin-left: -4%;
@@ -141,5 +159,13 @@ rgba(255, 255, 255, 0.004) */
         margin-left: -2%;
         border-radius: 0;
         width: 105%;
+    }
+    .footerGif {
+        margin-top: -80px;
+        width: 110%;
+        margin-left: -4%;
+    }
+    footer {
+        display: block;
     }
 }
