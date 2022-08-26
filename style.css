@@ -115,7 +115,7 @@ rgba(255, 255, 255, 0.004) */
 }
 .info {
     text-align: justify;
-    width: 60%;
+    width: 80%;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     margin-top: 20px;
@@ -135,6 +135,19 @@ rgba(255, 255, 255, 0.004) */
     color: #fff;
 }
 
+.dev {
+    width: 110%;
+    margin-left: -3%;
+    height: 60vh;
+    background-color: #fff;
+    margin-top: -10vh;
+    padding: 0;
+}
+
+.portraitImage {
+    width: 300px;
+    margin-left: 4%;
+}
 footer {
     display: none;
     width: 110%;
