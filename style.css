@@ -130,6 +130,7 @@ rgba(255, 255, 255, 0.004) */
     cursor: pointer;
     margin-right: 10px;
     font-size: 20px;
+    color: #7F4BD2;
 }
 .socialIcon:hover {
     color: #fff;
