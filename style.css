@@ -67,7 +67,7 @@ header {
 rgba(255, 255, 255, 0.004) */
 .main {
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     background-color: #121212;
     box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax);
@@ -94,7 +94,7 @@ rgba(255, 255, 255, 0.004) */
 
 .footer {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     color: rgba(255, 255, 255, 0.538);
 }
 .footer h3 {
@@ -125,6 +125,15 @@ rgba(255, 255, 255, 0.004) */
     width: 250px;
     float: right;
 }
+.socialIcon {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.socialIcon:hover {
+    color: #fff;
+}
 
 footer {
     display: none;
@@ -135,6 +144,7 @@ footer {
     background-image: url("./img/three.GIF");
     background-size: cover;
     background-repeat: no-repeat;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
 }
 .footerGif {
     margin-top: -130px;
@@ -155,7 +165,7 @@ footer {
         margin-left: 50px;
     }
     .gifTwo {
-        margin-top: 50vh;
+        margin-top: 100vh;
         margin-left: -2%;
         border-radius: 0;
         width: 105%;
