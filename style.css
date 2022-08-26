@@ -200,3 +200,21 @@ footer {
         display: block;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .dev {
+        margin-top: 0;
+        height: 54vh;
+    }
+    .portraitImage {
+        width: 250px;
+        margin-left: 4%;
+    }
+}
+
+
+@media screen and (max-height: 670px) {
+    .dev {
+        height: 71vh;
+    }
+}
