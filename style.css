@@ -286,7 +286,13 @@ footer {
     }
 } 
 
-@media screen and (max-height: 670px) {
+@media screen and (max-height: 740px) {
+    .dev {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 668px) {
     .dev {
         height: 61vh;
     }
