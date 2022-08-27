@@ -138,40 +138,45 @@ rgba(255, 255, 255, 0.004) */
 
 .dev {
     width: 110%;
-    margin-left: -3%;
+    margin-left: -5%;
     height: 60vh;
     background-color: #fff;
+    background-image: url("./img/dev.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: -10vh;
     padding: 0;
+}
+.devInfo {
+    width: 160px;
+    height: 150px;
+    overflow: hidden;
+    float: right;
+    margin-top: 17vh;
+    margin-right: -15%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.481);
+    border-radius: 10px;
 }
 .devP {
     width: 150px;
     font-weight: 900;
+    text-align: center;
     color: #7F4BD2;
     font-size: 25px;
-    text-align: center;
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 10vh;
-    border-bottom: 1px dotted #3f277b;
     padding: 5px;
+    user-select: none;
 }
 .github {
     text-decoration: none;
     color: #7F4BD2;
     font-weight: 100;
-    margin-left: 61%;
-    margin-top: 20vh;
-    position: absolute;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 .smallText {
     font-size: 20px;
-}
-.portraitImage {
-    width: 400px;
-    margin-left: 4%;
 }
 .lastFooter {
     width: 100%;
@@ -218,33 +223,7 @@ footer {
         margin-left: -4%;
     }
 
-    .github {
-        margin-left: 65%;
-        margin-top: 15vh;
-        font-size: 20px;
-    }
-
-    .devP {
-        width: 150px;
-        font-weight: 900;
-        color: #7F4BD2;
-        font-size: 20px;
-        text-align: center;
-        position: absolute;
-        margin-left: 60%;
-        margin-top: 5vh;
-        border-bottom: 1px dotted #3f277b;
-        padding: 5px;
-    }
-
-    .smallText {
-        font-size: 17px;
-    }
-
-    .portraitImage {
-        width: 300px;
-        margin-left: 4%;
-    }
+    
     footer {
         display: block;
     }
@@ -255,45 +234,20 @@ footer {
         margin-top: 0;
         height: 54vh;
     }
-    .portraitImage {
-        width: 250px;
-        margin-left: 4%;
-    }
-    .github {
-        margin-left: 56%;
-        margin-top: 11vh;
-        font-size: 20px;
+    .devInfo {
+        margin-top: 12vh;
+        margin-right: -250px;
     }
     .devP {
-        width: 150px;
-        font-weight: 900;
-        color: #7F4BD2;
         font-size: 20px;
-        text-align: center;
-        position: absolute;
-        margin-left: 50%;
-        margin-top: 3vh;
-        border-bottom: 1px dotted #3f277b;
-        padding: 5px;
     }
-    .smallText {
-        font-size: 17px;
+    .github {
+        font-size: 20px;
     }
 }
-@media screen and (max-height: 850px) {
+@media screen and (max-height: 820px) {
     .dev {
         height: 50vh;
     }
 } 
 
-@media screen and (max-height: 670px) {
-    .dev {
-        height: 60vh;
-    }
-    .devP {
-        margin-top: 17vh;
-    }
-    .github {
-        margin-top: 27vh;
-    }
-}
