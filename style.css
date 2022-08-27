@@ -297,9 +297,3 @@ footer {
         margin-top: 17vh;
     }
 }
-
-@media screen and (max-height: 668px) {
-    .dev {
-        height: 71vh;
-    }
-}
