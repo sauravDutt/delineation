@@ -199,25 +199,7 @@ footer {
     background-repeat: no-repeat;
     border-top: 1px solid rgba(255, 255, 255, 0.233);
 }
-.footerTextContact {
-    text-decoration: none ;
-    color: rgba(255, 255, 255, 0.432);
-    overflow: hidden;
-    width: 170px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    font-size: 10px;
-    margin-top: 15vh;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 5%;
-}
-.footerTextContact i {
-    font-size: 15px;
-}
-.footerTextContact a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.432);
-}
+
 
 @media screen and (max-width: 800px) {
     body {
@@ -248,9 +230,28 @@ footer {
     footer {
         display: block;
     }
+    .footerTextContact {
+        text-decoration: none ;
+        color: rgba(255, 255, 255, 0.432);
+        overflow: hidden;
+        width: 170px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-top: 15vh;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10%;
+    }
+    .footerTextContact i {
+        font-size: 15px;
+    }
+    .footerTextContact a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.432);
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
     .dev {
         margin-top: 0;
         height: 60vh;
@@ -264,6 +265,9 @@ footer {
     }
     .github {
         font-size: 20px;
+    }
+    .footerTextContact {
+        margin-left: 5%;
     }
 }
 
