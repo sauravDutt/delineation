@@ -246,3 +246,12 @@ footer {
     }
 }
 
+@media screen and (max-height: 670px) {
+    .devP {
+        display: none;
+    }
+    .devInfo {
+        margin-top: 25vh;
+    }
+}
+
