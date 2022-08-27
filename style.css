@@ -291,7 +291,10 @@ footer {
         height: 60vh;
     }
     .devP {
-        margin-top: 10vh;
+        margin-top: 7vh;
+    }
+    .github {
+        margin-top: 17vh;
     }
 }
 
