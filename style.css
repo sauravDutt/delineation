@@ -286,14 +286,17 @@ footer {
     }
 } 
 
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 670px) {
     .dev {
         height: 60vh;
+    }
+    .devP {
+        margin-top: 10vh;
     }
 }
 
 @media screen and (max-height: 668px) {
     .dev {
-        height: 61vh;
+        height: 71vh;
     }
 }
