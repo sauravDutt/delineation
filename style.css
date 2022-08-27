@@ -144,7 +144,31 @@ rgba(255, 255, 255, 0.004) */
     margin-top: -10vh;
     padding: 0;
 }
-
+.devP {
+    width: 150px;
+    font-weight: 900;
+    color: #7F4BD2;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10vh;
+    border-bottom: 1px dotted #3f277b;
+    padding: 5px;
+}
+.github {
+    text-decoration: none;
+    color: #3f277b;
+    font-weight: 100;
+    margin-left: 61%;
+    margin-top: 20vh;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.smallText {
+    font-size: 20px;
+}
 .portraitImage {
     width: 400px;
     margin-left: 4%;
@@ -193,6 +217,30 @@ footer {
         width: 110%;
         margin-left: -4%;
     }
+
+    .github {
+        margin-left: 65%;
+        margin-top: 15vh;
+        font-size: 20px;
+    }
+
+    .devP {
+        width: 150px;
+        font-weight: 900;
+        color: #7F4BD2;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 5vh;
+        border-bottom: 1px dotted #3f277b;
+        padding: 5px;
+    }
+
+    .smallText {
+        font-size: 17px;
+    }
+
     .portraitImage {
         width: 300px;
         margin-left: 4%;
@@ -211,8 +259,32 @@ footer {
         width: 250px;
         margin-left: 4%;
     }
+    .github {
+        margin-left: 65%;
+        margin-top: 15vh;
+        font-size: 20px;
+    }
+    .devP {
+        width: 150px;
+        font-weight: 900;
+        color: #7F4BD2;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 5vh;
+        border-bottom: 1px dotted #3f277b;
+        padding: 5px;
+    }
+    .smallText {
+        font-size: 17px;
+    }
 }
-
+@media screen and (max-height: 820px) {
+    .dev {
+        height: 50vh;
+    }
+} 
 
 @media screen and (max-height: 670px) {
     .dev {
