@@ -180,7 +180,13 @@ rgba(255, 255, 255, 0.004) */
 }
 .lastFooter {
     width: 100%;
-    height: 20vh;
+    height: 40vh;
+}
+.delineationSmallText {
+    color: #7F4BD2;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
 }
 footer {
     display: none;
@@ -193,9 +199,24 @@ footer {
     background-repeat: no-repeat;
     border-top: 1px solid rgba(255, 255, 255, 0.233);
 }
-.footerGif {
-    margin-top: -130px;
-    width: 100%;
+.footerTextContact {
+    text-decoration: none ;
+    color: rgba(255, 255, 255, 0.432);
+    overflow: hidden;
+    width: 170px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-top: 15vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+.footerTextContact i {
+    font-size: 15px;
+}
+.footerTextContact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.432);
 }
 
 @media screen and (max-width: 800px) {
