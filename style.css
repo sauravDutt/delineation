@@ -281,6 +281,9 @@ footer {
     .devP {
         display: none;
     }
+    .dev {
+        height: 70vh;
+    }
     .devInfo {
         margin-top: 27vh;
     }
