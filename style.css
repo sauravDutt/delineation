@@ -27,7 +27,7 @@ header {
     box-shadow: 0 0 0 100vmax #00121212;
     clip-path: inset(0 -100vmax);
     padding: 0;
-    padding-left: 7px;
+    padding-left: 24px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.233);
     /* background-color: #000;
     box-shadow: 0 0 0 100vmax #000; */
@@ -214,6 +214,9 @@ footer {
         margin-left: -4%;
         margin-top: -3%;
     }
+    .walletBtn {
+        margin-right: 15%;
+    }
     .logoImg {
         margin-left: 50px;
     }
@@ -221,7 +224,7 @@ footer {
         margin-top: 100vh;
         margin-left: -2%;
         border-radius: 0;
-        width: 105%;
+        width: 113%;
     }
     .footerGif {
         margin-top: -80px;
@@ -256,15 +259,20 @@ footer {
 
 @media screen and (max-width: 480px) {
     .dev {
-        margin-top: 0;
-        height: 60vh;
+        height: 65vh;
+        width: 120%;
+        margin-top: 30px;
+        margin-left: -40px;
     }
     .devInfo {
-        margin-top: 12vh;
+        margin-top: 13vh;
+        z-index: -10;
+        background-color: transparent;
         margin-right: -250px;
     }
     .devP {
         font-size: 20px;
+        font-style: bold;
     }
     .github {
         font-size: 20px;
@@ -282,13 +290,15 @@ footer {
         display: none;
     }
     .dev {
-        height: 80vh;
-        width: 105%;
-        margin-left: -2.5%;
+        background-color: #fff;
+        height: 70vh;
+        width: 120%;
+        margin-left: -40px;
     }
     .devInfo {
+        color: #561DE2;
         background-color: transparent;
-        margin-top: 29vh;
+        margin-top: 30vh;
     }
 }
 
