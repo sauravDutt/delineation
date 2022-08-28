@@ -283,7 +283,8 @@ footer {
     }
     .dev {
         height: 80vh;
-        margin-left: -7%;
+        width: 105%;
+        margin-left: -2.5%;
     }
     .devInfo {
         background-color: transparent;
