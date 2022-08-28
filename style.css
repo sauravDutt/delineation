@@ -286,6 +286,7 @@ footer {
         margin-left: -7%;
     }
     .devInfo {
+        background-color: transparent;
         margin-top: 29vh;
     }
 }
