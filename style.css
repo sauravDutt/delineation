@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 
 header {
     position: fixed;
-    z-index: 696969;
+    z-index: 69;
     width: 105%;
     height: 80px;
     margin: 0;
@@ -48,7 +48,7 @@ header {
     border-radius: 10px;
     background-color: #1212123c;
     width: 150px;
-    z-index: 2000;
+    z-index: 20;
     margin-left: 70px;
     margin-top: 10px;
     user-select: none;
@@ -65,6 +65,71 @@ header {
 }
 .walletBtn:hover {
     color: #fff;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 80;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121211;
+}
+.modalTitle {
+    width: 300px;
+    height: 70px;
+}
+.matamask {
+    margin: 0 auto;
+    width: 220px;
+}
+
+.modal-header .close-button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 0.597);
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #121212;
+    transition: 200ms ease-in-out;
+    z-index: 75;
+    pointer-events: none;
+}
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }
 /* 
 rgba(255, 255, 255, 0.004) */
