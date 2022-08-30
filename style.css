@@ -353,7 +353,7 @@ footer {
         margin-left: 50px;
     }
     .gifTwo {
-        margin-top: 80vh;
+        margin-top: 70vh;
         margin-left: -2%;
         border-radius: 0;
         width: 113%;
@@ -392,7 +392,7 @@ footer {
 @media screen and (max-width: 480px) {
     
     .development {
-
+        
         font-size: 30px;
     }
 
