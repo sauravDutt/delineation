@@ -19,30 +19,26 @@ body::-webkit-scrollbar {
 header {
     position: fixed;
     z-index: 69;
-    width: 105%;
+    width: 100%;
     height: 80px;
     margin: 0;
-    margin-left: -4%;
+    margin-left: -2%;
     margin-top: -10px;
     background-color: #121212;
     box-shadow: 0 0 0 100vmax #00121212;
     clip-path: inset(0 -100vmax);
     padding: 0;
-    padding-left: 24px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
-    /* background-color: #000;
-    box-shadow: 0 0 0 100vmax #000; */
-    clip-path: inset(0 -100vmax);
-}
-.subLogo {
-    position: absolute;
-    width: 100px;
-    margin-left: 5px;
-    margin-top: -10px;
-    z-index: 0;
-    user-select: none;
-}
+    display: grid;
 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+}
+.headerDiv {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
 .logoImg {
     position: relative;
     padding: 3px;
@@ -50,19 +46,15 @@ header {
     background-color: #1212123c;
     width: 150px;
     z-index: 20;
-    margin-left: 70px;
     margin-top: 10px;
     user-select: none;
 }
 .walletBtn {
     background: transparent;
-    margin-top: 30px;
-    margin-right: 7%;
     border: none;
     font-size: 25px;
     color: #561DE2;
     cursor: pointer;
-    float: right;
 }
 .walletBtn:hover {
     color: #fff;
@@ -383,17 +375,7 @@ footer {
         overflow-y: scroll;
         overflow-x: hidden;
     }
-    .subLogo {
-        width: 100px;
-        margin-left: -4%;
-        margin-top: -3%;
-    }
-    .walletBtn {
-        margin-right: 15%;
-    }
-    .logoImg {
-        margin-left: 50px;
-    }
+
     .gifTwo {
         margin-top: 30vh;
         border-radius: 15px;
