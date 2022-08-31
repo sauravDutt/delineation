@@ -161,7 +161,7 @@ header {
     display: flex;
     width: 365px;
     margin: 0 auto;
-    margin-left: -22px;
+    margin-left: -12px;
     margin-bottom: 9px;
     justify-content: space-between;
 }
