@@ -448,16 +448,9 @@ rgba(255, 255, 255, 0.004) */
         margin-right: 0;
         margin-right: -10px;
     }
-    .lastFooter {
-        width: 480px;
-    }
-    .halfWhite {
-        height: 400px;
-    }
     .dev {
-        height: 60vh;
-        width: 480px;
-        margin-top: 50px;
+        margin-top: 55px;
+        margin-bottom: 5px;
     }
     .devInfo {
         margin-top: 13vh;
@@ -471,6 +464,10 @@ rgba(255, 255, 255, 0.004) */
     }
     .github {
         font-size: 20px;
+    }
+
+    .halfWhite {
+        height: 400px;
     }
     .smallText {
         font-size: 20px;
