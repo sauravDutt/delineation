@@ -214,7 +214,7 @@ header {
 }
 .modal-body p {
     user-select: none;
-    text-align: center;
+    text-align: justify;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 0.597);
@@ -243,7 +243,7 @@ header {
 rgba(255, 255, 255, 0.004) */
 .main {
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     background-color: #121212;
     box-shadow: 0 0 0 100vmax #121212;
     clip-path: inset(0 -100vmax);
@@ -395,10 +395,9 @@ footer {
         margin-left: 50px;
     }
     .gifTwo {
-        margin-top: 70vh;
-        margin-left: -2%;
-        border-radius: 0;
-        width: 113%;
+        margin-top: 30vh;
+        border-radius: 15px;
+        width: 45%;
     }
     .footerGif {
         margin-top: -80px;

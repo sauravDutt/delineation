@@ -8,12 +8,14 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e74f664965.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
 </head>
 <body>
     <header>
         <img src="./img/one.gif" alt="Lean" class="subLogo">
         <img src="./img/logo.png" alt="Logo" class="logoImg">
-        <button class="walletBtn" data-modal-target="#modal" ><i class="fa-solid fa-wallet"></i></button>
+        <button class="walletBtn" data-modal-target="#modal"><i class="fa-solid fa-wallet"></i></button>
     </header>
     <br><br><br>
     <div class="modal" id="modal">
@@ -26,7 +28,7 @@
         <div class="modal-body-one">
             <div class="mintLogo">
                 <h2>Mint</h2>
-                <h3>Delineation Club <br> Members Card.</h3>
+                <h3>Delineation Club <br> Member's Card.</h3>
             </div>
             <div class="mintBtn">
                 <button>Mint<br><span style="font-size: 20px; letter-spacing: 1px;"><i class="fa-brands fa-ethereum"></i> 0.08</span></button>
@@ -35,7 +37,7 @@
         <div class="modal-wallet-card">
             <div class="wallet-card-header">
                 <img src="./img/logo.png" alt="Logo" class="walletCardLogo" />
-                <button class="walletButtonCard"><i class="fa-solid fa-wallet"></i></button>
+                <button class="walletButtonCard" onclick="connectWallet()"><i class="fa-solid fa-wallet"></i></button>
             </div>
             <div class="wallet-card-body">
                 <p >Public Key <br><span class="user-public-key" id="publicKey">0x44d28Ab0e2E042BF8B</span></p>
@@ -44,7 +46,9 @@
         </div>
         <div class="modal-body">
             <p>
-            To experience Delineation Club's utilities, the user must mint a Delineation Club Members Card at a floor price of <i class="fa-brands fa-ethereum"></i> 0.08ETH, the members card is required as authentication while playing Club games. New to matamask <a href="https://metamask.io/" target="_blank">click me!</a> to know more. **MataMask extension must be installed** <br>
+            First things first, click on the <i class="fa-solid fa-wallet"></i> icon in the card above to connect to your Matamask account. Then to experience Delineation Club's utilities, the user must <strong style="color: #8841fb;">mint</strong> a Delineation Club Members Card at a floor price of <i class="fa-brands fa-ethereum"></i> 0.08ETH, the members card is required as authentication while playing Club games. New to matamask <a href="https://metamask.io/" target="_blank">click here..</a> to know more. **MataMask extension must be installed** <br>
+                <br>
+            **Each Member's Card comes with a unique animated artwork at the Top-Right followed by user's public Key and available Member's card balance.
             </p>
         </div>
     </div>
@@ -88,6 +92,7 @@
             <a href="tel:9958479837"><i class="fa-solid fa-phone"></i>  +91 99584 79837 </a>
         </p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
