@@ -111,7 +111,6 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.264);
     width: 300px;
     margin: 0 auto;
-    margin-left: -6px;
     height: 150px;
     border-radius: 10px;
     padding: 10px 15px;
@@ -162,6 +161,7 @@ header {
     display: flex;
     width: 320px;
     margin: 0 auto;
+    margin-right: 10px;
     margin-bottom: 9px;
     justify-content: space-between;
 }
