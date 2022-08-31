@@ -19,24 +19,23 @@ body::-webkit-scrollbar {
 header {
     position: fixed;
     z-index: 69;
-    width: 102%;
+    width: 120%;
     height: 80px;
     margin: 0;
-    margin-left: -2%;
+    margin-left: -5%;
     margin-top: -10px;
     background-color: #121212;
     box-shadow: 0 0 0 100vmax #00121212;
     clip-path: inset(0 -100vmax);
     padding: 0;
     display: grid;
-
     border-bottom: 1px solid rgba(255, 255, 255, 0.233);
 }
 .headerDiv {
     display: flex;
     position: fixed;
     justify-content: space-between;
-    width: 92vw;
+    width: 95%;
     margin-left: 5%;
 }
 .logoImg {
@@ -265,6 +264,7 @@ rgba(255, 255, 255, 0.004) */
 .footer {
     width: 100%;
     height: 50vh;
+    margin-left: 5%;
     color: rgba(255, 255, 255, 0.538);
 }
 .footer h3 {
@@ -311,7 +311,7 @@ rgba(255, 255, 255, 0.004) */
 
 
 .dev {
-    width: 110%;
+    width: 120%;
     margin-left: -5%;
     height: 60vh;
     background-color: #fff;
@@ -328,7 +328,6 @@ rgba(255, 255, 255, 0.004) */
     overflow: hidden;
     float: right;
     margin-top: 17vh;
-    margin-right: -15%;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.481);
     border-radius: 10px;
@@ -364,7 +363,7 @@ rgba(255, 255, 255, 0.004) */
     background-color: #fff;
 }
 .frankula {
-    margin-left: 16%;
+    margin-left: 26%;
     position: relative;
     width: 450px;
 }
@@ -377,7 +376,7 @@ rgba(255, 255, 255, 0.004) */
 .footerTextContact {
     margin-bottom: 5px;
     margin-left: 20px;
-    letter-spacing: 2px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
 
