@@ -159,9 +159,8 @@ header {
 .modal-body-one {
     padding: 1px;
     display: flex;
-    width: 320px;
+    width: 340px;
     margin: 0 auto;
-    margin-right: 10px;
     margin-bottom: 9px;
     justify-content: space-between;
 }
