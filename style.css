@@ -474,7 +474,7 @@ rgba(255, 255, 255, 0.004) */
         margin-right: -250px;
     }
     .devP {
-        font-size: 20px;
+        font-size: 15px;
         font-style: bold;
     }
     .github {
@@ -495,9 +495,7 @@ rgba(255, 255, 255, 0.004) */
 }
 
 @media screen and (max-height: 700px) {
-    .devP {
-        display: none;
-    }
+    
     .contact {
         margin-top: 20vh;
     }
