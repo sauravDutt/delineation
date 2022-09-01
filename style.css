@@ -498,6 +498,9 @@ rgba(255, 255, 255, 0.004) */
     .devP {
         display: none;
     }
+    .contact {
+        margin-top: 20vh;
+    }
     .dev {
         background-color: #fff;
         height: 70vh;
