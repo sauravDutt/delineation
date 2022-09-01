@@ -102,14 +102,13 @@ header {
 }
 .modal-wallet-card {
     border: 1px solid rgba(255, 255, 255, 0.009);
-    border-radius: 37px;
+    border-radius: 10px;
     background: #121212;
-    box-shadow:  13px 13px 26px #070707,
-                -13px -13px 26px #1d1d1d;
+    box-shadow:  6px 6px 12px #070707,
+                -6px -6px 12px #1d1d1d;
     width: 300px;
     margin: 0 auto;
     height: 150px;
-    border-radius: 10px;
     padding: 10px 15px;
 }
 .wallet-card-header {
