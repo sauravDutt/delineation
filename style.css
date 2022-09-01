@@ -468,7 +468,7 @@ rgba(255, 255, 255, 0.004) */
         margin-bottom: -10px;
     }
     .devInfo {
-        margin-top: 13vh;
+        margin-top: 15vh;
         z-index: -10;
         background-color: transparent;
         margin-right: -250px;
@@ -507,7 +507,7 @@ rgba(255, 255, 255, 0.004) */
     .devInfo {
         color: #561DE2;
         background-color: transparent;
-        margin-top: 20vh;
+        margin-top: 23vh;
     }
 }
 
