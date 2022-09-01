@@ -320,6 +320,7 @@ rgba(255, 255, 255, 0.004) */
     background-repeat: no-repeat;
     margin-top: -10vh;
     padding: 0;
+    z-index: 30;
 }
 
 .devInfo {
@@ -354,8 +355,9 @@ rgba(255, 255, 255, 0.004) */
 }
 .lastFooter {
     width: 120%;
+    z-index: 20;
     margin-left: -5%;
-    height: 53vh;
+    height: 60vh;
 }
 .halfWhite {
     margin-left: -10%;
@@ -373,9 +375,14 @@ rgba(255, 255, 255, 0.004) */
     font-style: italic;
     font-weight: 300;
 }
+
+.contact {
+    height: 7vh;
+    width: 200px;
+    padding-left: 20px;
+}
 .footerTextContact {
     margin-bottom: 5px;
-    margin-left: 20px;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -412,9 +419,12 @@ rgba(255, 255, 255, 0.004) */
         height: 60vh;
     }
     .frankula {
-        margin-top: 20%;
-        margin-left: 6%;
+        margin-top: 26%;
+        margin-left: 12%;
         width: 400px;
+    }
+    .contact {
+        margin-top: 20px;
     }
     .footerTextContact {
         text-decoration: none ;
@@ -424,9 +434,7 @@ rgba(255, 255, 255, 0.004) */
         line-height: 20px;
         letter-spacing: 1px;
         font-size: 10px;
-        margin-top: 15vh;
         font-family: 'Montserrat', sans-serif;
-        margin-left: 10%;
     }
     .footerTextContact i {
         font-size: 10px;
@@ -449,7 +457,7 @@ rgba(255, 255, 255, 0.004) */
     }
     .dev {
         margin-top: 55px;
-        margin-bottom: 5px;
+        margin-bottom: -10px;
     }
     .devInfo {
         margin-top: 13vh;
@@ -471,8 +479,8 @@ rgba(255, 255, 255, 0.004) */
     .smallText {
         font-size: 20px;
     }
-    .footerTextContact {
-        margin-left: 5%;
+    .contact {
+        margin-top: 90px;
     }
 }
 
