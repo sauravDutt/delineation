@@ -47,6 +47,7 @@ header {
     z-index: 20;
     margin-top: 10px;
     user-select: none;
+    
 }
 .walletBtn {
     background: transparent;
@@ -371,6 +372,7 @@ rgba(255, 255, 255, 0.004) */
     margin-top: -20%;
     position: relative;
     width: 800px;
+    
 }
 .delineationSmallText {
     color: #7F4BD2;
