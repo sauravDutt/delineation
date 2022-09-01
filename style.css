@@ -100,7 +100,11 @@ header {
     cursor: pointer;
 }
 .modal-wallet-card {
-    border: 1px solid rgba(255, 255, 255, 0.264);
+    border: 1px solid rgba(255, 255, 255, 0.009);
+    border-radius: 37px;
+    background: #121212;
+    box-shadow:  13px 13px 26px #070707,
+                -13px -13px 26px #1d1d1d;
     width: 300px;
     margin: 0 auto;
     height: 150px;
