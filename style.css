@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    margin-left: 11.5%;
 }
 .logoImg {
     position: relative;
@@ -245,13 +245,19 @@ header {
 /* 
 rgba(255, 255, 255, 0.004) */
 .main {
-    width: 100%;
+    width: 100vw;
     height: 50vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left:-1vw ;
     background-color: #000;
-    box-shadow: 0 0 0 100vmax #000;
-    clip-path: inset(0 -100vmax);
 }
 
+#mainCanvas {
+    width: 100vw;
+    height: 50vh;
+    margin: 0 auto;
+}
 
 .secondMain {
     width: 100%;
@@ -421,9 +427,6 @@ rgba(255, 255, 255, 0.004) */
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .devInfo {
-        display: none;
-    }
     .lastFooter {
         height: 40vh;
     }
@@ -459,6 +462,23 @@ rgba(255, 255, 255, 0.004) */
 
 @media screen and (max-width: 480px) {
    
+    .main {
+        width: 110vw;
+        height: 50vh;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left:-1vw ;
+        background-color: #000;
+    }
+    
+    #mainCanvas {
+        width: 100vw;
+        height: 40vh;
+        margin: 0 auto;
+        margin-top: 2.5vh;
+        margin-left: 5vw;
+    }
+    
 
     .modal-body-one {
         width: 325px;
