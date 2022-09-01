@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
 
+
 body {
     background-color: #121212;
     overflow-x: hidden;
@@ -19,7 +20,7 @@ body::-webkit-scrollbar {
 header {
     position: fixed;
     z-index: 69;
-    width: 120%;
+    width: 105%;
     height: 80px;
     margin: 0;
     margin-left: -5%;
@@ -33,10 +34,9 @@ header {
 }
 .headerDiv {
     display: flex;
-    position: fixed;
     justify-content: space-between;
-    width: 95%;
-    margin-left: 5%;
+    width: 80vw;
+    margin: 0 auto;
 }
 .logoImg {
     position: relative;
@@ -438,7 +438,7 @@ rgba(255, 255, 255, 0.004) */
 }
 
 @media screen and (max-width: 480px) {
-    
+   
 
     .modal-body-one {
         width: 325px;
