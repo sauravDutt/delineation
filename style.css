@@ -297,6 +297,7 @@ rgba(255, 255, 255, 0.004) */
 .leanCup {
     width: 250px;
     float: right;
+    margin-right: 10vw;
 }
 .socialIcon {
     text-decoration: none;
@@ -315,9 +316,6 @@ rgba(255, 255, 255, 0.004) */
     margin-left: -5%;
     height: 60vh;
     background-color: #fff;
-    background-image: url("./img/dev.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: -10vh;
     padding: 0;
     z-index: 30;
@@ -365,9 +363,10 @@ rgba(255, 255, 255, 0.004) */
     background-color: #fff;
 }
 .frankula {
-    margin-left: 26%;
+    margin-left: 20%;
+    margin-top: -20%;
     position: relative;
-    width: 450px;
+    width: 800px;
 }
 .delineationSmallText {
     color: #7F4BD2;
@@ -410,16 +409,25 @@ rgba(255, 255, 255, 0.004) */
     .footerGif {
         margin-top: -80px;
         width: 110%;
-        margin-left: -4%;
+        margin-left: 54%;
+    }
+    .leanCup {
+        margin-right: 10px;
     }
     .dev {
         width: 120%;
+        background-image: url("./img/dev.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .lastFooter {
+        height: 40vh;
     }
     .halfWhite {
-        height: 60vh;
+        height: 30vh;
     }
     .frankula {
-        margin-top: 26%;
+        margin-top: -2%;
         margin-left: 12%;
         width: 400px;
     }
@@ -472,9 +480,11 @@ rgba(255, 255, 255, 0.004) */
     .github {
         font-size: 20px;
     }
-
+    .frankula {
+        margin-top: 30px;
+    }
     .halfWhite {
-        height: 400px;
+        height: 40vh;
     }
     .smallText {
         font-size: 20px;
