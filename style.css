@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
 
-@media only screen and (orientation:portrait)
+@media only screen and (orientation:portrait){
+    body {
+      transform: rotate(90deg);
+      height: 100vh;
+    }
+  }
 
 body {
     background-color: #121212;
