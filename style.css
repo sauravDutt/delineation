@@ -343,9 +343,12 @@ rgba(255, 255, 255, 0.004) */
     height: 150px;
     overflow: hidden;
     float: right;
+    margin-right: -200px;
     margin-top: 17vh;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.481);
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #ebebeb,
+                -5px -5px 10px #ffffff;
     border-radius: 10px;
 }
 .devP {
@@ -364,6 +367,7 @@ rgba(255, 255, 255, 0.004) */
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
+    z-index: 67;
 }
 .smallText {
     font-size: 20px;
@@ -497,8 +501,13 @@ rgba(255, 255, 255, 0.004) */
     .devInfo {
         margin-top: 15vh;
         z-index: -10;
+        height: 13vh;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow:  5px 5px 10px #ebebeb,
+                    -5px -5px 10px #ffffff;
         background-color: transparent;
-        margin-right: -250px;
+        margin-right: -280px;
     }
     .devP {
         font-size: 15px;
