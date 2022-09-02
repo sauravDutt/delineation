@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
 
-@media only screen and (orientation:landscape){
-    body {
-      transform: rotate(360deg);
-    }
-  }
 
 body {
     background-color: #121212;
@@ -251,17 +246,20 @@ header {
 rgba(255, 255, 255, 0.004) */
 .main {
     width: 100vw;
-    height: 50vh;
+    height: 45vh;
     margin: 0 auto;
     margin-top: 20px;
     margin-left:-1vw ;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.125);
 }
 
 #mainCanvas {
-    width: 100vw;
-    height: 50vh;
-    margin: 0 auto;
+    width: 97vw;
+    height: 40vh;
+    margin-top: 2vh;
+    background-image: url('./img/background.png');
+    background-size: cover;
+    margin-left: 1vw;
 }
 
 .secondMain {
@@ -470,16 +468,16 @@ rgba(255, 255, 255, 0.004) */
    
     .main {
         width: 110vw;
-        height: 50vh;
+        height: 36vh;
         margin: 0 auto;
         margin-top: 20px;
         margin-left:-1vw ;
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.133);
     }
     
     #mainCanvas {
-        width: 100vw;
-        height: 40vh;
+        width: 99vw;
+        height: 30vh;
         margin: 0 auto;
         margin-top: 2.5vh;
         margin-left: 5vw;
