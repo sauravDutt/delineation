@@ -245,21 +245,23 @@ header {
 /* 
 rgba(255, 255, 255, 0.004) */
 .main {
-    width: 100vw;
+    width: 99vw;
     height: 45vh;
     margin: 0 auto;
     margin-top: 20px;
     margin-left:-1vw ;
-    background-color: rgba(0, 0, 0, 0.125);
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
 
 #mainCanvas {
-    width: 97vw;
+    width: 500px;
+    max-width: 95%;
     height: 40vh;
     margin-top: 2vh;
     background-image: url('./img/background.png');
     background-size: cover;
-    margin-left: 1vw;
 }
 
 .secondMain {
@@ -472,15 +474,12 @@ rgba(255, 255, 255, 0.004) */
         margin: 0 auto;
         margin-top: 20px;
         margin-left:-1vw ;
-        background-color: rgba(0, 0, 0, 0.133);
     }
     
     #mainCanvas {
-        width: 99vw;
         height: 30vh;
-        margin: 0 auto;
-        margin-top: 2.5vh;
-        margin-left: 5vw;
+        margin-top: 0.5vh;
+        margin-left: 2%;
     }
     
 
