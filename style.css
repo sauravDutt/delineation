@@ -271,6 +271,10 @@ rgba(255, 255, 255, 0.004) */
 /* .underDev {
     display: none;
 } */
+.underDev {
+    margin: 0 auto;
+    width: 40vw;
+}
 .underDev h2 {
     color: #fff;
     font-family: 'logo';
@@ -288,7 +292,7 @@ rgba(255, 255, 255, 0.004) */
     padding: 0;
     font-size: 22px;
     margin-top: -60px;
-    margin-right: 40px;
+    margin-right: 27%;
 }
 
 .secondMainP {
@@ -463,7 +467,13 @@ rgba(255, 255, 255, 0.004) */
         overflow-y: scroll;
         overflow-x: hidden;
     }
-
+    .underDev {
+        margin: 0 auto;
+        width: 80vw;
+    }
+    .secondMainSub {
+        margin-right: 6%;
+    }
     .footerGif {
         margin-top: -80px;
         width: 110%;
