@@ -245,9 +245,7 @@ header {
 /* 
 rgba(255, 255, 255, 0.004) */
 .main {
-    width: 99vw;
-    height: 45vh;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 20px;
     margin-left:-1vw ;
     justify-content: center;
@@ -256,7 +254,8 @@ rgba(255, 255, 255, 0.004) */
 }
 
 #mainCanvas {
-    width: 500px;
+    width: 600px;
+    margin: 0 auto;
     max-width: 95%;
     height: 40vh;
     margin-top: 2vh;
