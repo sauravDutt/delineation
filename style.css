@@ -245,22 +245,36 @@ header {
 /* 
 rgba(255, 255, 255, 0.004) */
 .main {
-    width: 100%;
+    width: 90vw;
+    overflow: hidden;
+    margin: 0 auto;
     margin-top: 20px;
-    margin-left:-1vw ;
-    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid #561DE2;
+    padding-left: 50px;
+    padding-right: 50px;
     align-items: center;
     display: grid;
+    grid-template-columns: auto auto;
 }
 
 #mainCanvas {
     width: 600px;
     margin: 0 auto;
-    max-width: 95%;
+    max-width: 88%;
     height: 40vh;
     margin-top: 2vh;
     background-image: url('./img/background.png');
     background-size: cover;
+}
+
+.introductionBox {
+    width: 500px;
+    height: 500px;
+    max-width: 88%;
+    max-height: 70%;
+    border: 1px solid #fff;
+    display: grid;
 }
 
 .secondMain {
@@ -470,6 +484,18 @@ rgba(255, 255, 255, 0.004) */
         margin: 0 auto;
         width: 80vw;
     }
+    .main {
+        grid-template-columns: auto;
+        padding: 0;
+
+    }
+    #mainCanvas {
+        margin-left: 4%;
+    }
+    .introductionBox {
+        margin-top: 2px;
+        margin-left: 4%;
+    }
     .secondMainSub {
         margin-right: 6%;
     }
@@ -524,18 +550,20 @@ rgba(255, 255, 255, 0.004) */
    
     .main {
         width: 110vw;
-        height: 36vh;
-        margin: 0 auto;
         margin-top: 20px;
         margin-left:-1vw ;
+        border: 1px solid #fff;
+        justify-content: space-evenly;
     }
     
     #mainCanvas {
+        width: 410px;
         height: 30vh;
-        margin-top: 0.5vh;
-        margin-left: 2.5%;
     }
     
+    .introductionBox {
+        width: 410px;
+    }
 
     .modal-body-one {
         width: 325px;
