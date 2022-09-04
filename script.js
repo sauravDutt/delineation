@@ -35,7 +35,3 @@ const closeModal = (modal) => {
     overlay.classList.remove('active');
 }
 
-// Canvas at the Landing
-const canvas = document.getElementById('mainCanvas');
-const c = canvas.getContext('2d');
-

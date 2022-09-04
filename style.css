@@ -245,40 +245,38 @@ header {
 /* 
 rgba(255, 255, 255, 0.004) */
 .main {
-    width: 90vw;
-    overflow: hidden;
+    width: 80vw;
     margin: 0 auto;
     margin-top: 20px;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
     align-items: center;
     display: grid;
     grid-template-columns: auto auto;
 }
 
-#mainCanvas {
-    width: 600px;
-    margin: 0 auto;
+.landingGif {
+    border: 1px solid #7F4BD2;
+    width: 40vw;
+    height: 500px;
     max-width: 88%;
-    height: 40vh;
-    margin-top: 2vh;
-    background-image: url('./img/background.png');
-    background-size: cover;
+    border-radius: 15px;
+    max-height: 70%;
+    display: grid;
+    margin: 0 auto;
 }
 
 .introductionBox {
-    width: 500px;
-    height: 400px;
+    width: 40vw;
+    height: 500px;
     max-width: 88%;
+    overflow: hidden;
     max-height: 70%;
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     grid-template-columns: auto;
 }
 .userLogin {
-    border: 1px solid #7f4bd23c;
     width: 300px;
     border-radius: 10px;
     background: #121212;
@@ -517,12 +515,15 @@ rgba(255, 255, 255, 0.004) */
         padding: 0;
 
     }
-    #mainCanvas {
-        margin-left: 1%;
+    .landingGif {
+        margin-top: -10vh;
+        width: 70vh;
     }
+    
     .introductionBox {
-        margin-top: 2px;
-        margin-left: 1%;
+        width: 70vh;
+        margin-top: -20vh;
+        margin-bottom: 0px;
     }
     .secondMainSub {
         margin-right: 16%;
@@ -582,16 +583,13 @@ rgba(255, 255, 255, 0.004) */
         margin-left:-1vw ;
         justify-content: space-evenly;
     }
-    
-    #mainCanvas {
-        width: 410px;
-        height: 30vh;
-        margin-left: 4%;
+    .landingGif {
+        width: 110vw;
     }
     
     .introductionBox {
-        width: 410px;
-        margin-left: 4%;
+        width: 110vw;
+        margin-top: -30vh;
     }
 
     .secondMainSub {
