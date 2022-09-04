@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 body {
     background-color: #121212;
@@ -250,7 +250,6 @@ rgba(255, 255, 255, 0.004) */
     margin: 0 auto;
     margin-top: 20px;
     justify-content: space-between;
-    border: 1px solid #561DE2;
     padding-left: 50px;
     padding-right: 50px;
     align-items: center;
@@ -270,13 +269,42 @@ rgba(255, 255, 255, 0.004) */
 
 .introductionBox {
     width: 500px;
-    height: 500px;
+    height: 400px;
     max-width: 88%;
     max-height: 70%;
-    border: 1px solid #fff;
     display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
 }
+.userLogin {
+    border: 1px solid #7f4bd23c;
+    width: 300px;
+    border-radius: 10px;
+    background: #121212;
+    box-shadow:  6px 6px 24px #070707,
+                -6px -6px 12px #1d1d1d;
 
+}
+.gameLogo {
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: #5f2ae6;
+    font-weight: 400;
+    user-select: none;
+    font-size: 40px;
+    margin: 0;
+}
+.smallLogoGame {
+    font-family: 'Logo';
+    font-weight: 100;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.845);
+    text-align: center;
+    margin: 0;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
 .secondMain {
     width: 100%;
     height: 100vh;
@@ -490,14 +518,14 @@ rgba(255, 255, 255, 0.004) */
 
     }
     #mainCanvas {
-        margin-left: 4%;
+        margin-left: 1%;
     }
     .introductionBox {
         margin-top: 2px;
-        margin-left: 4%;
+        margin-left: 1%;
     }
     .secondMainSub {
-        margin-right: 6%;
+        margin-right: 16%;
     }
     .footerGif {
         margin-top: -80px;
@@ -552,19 +580,23 @@ rgba(255, 255, 255, 0.004) */
         width: 110vw;
         margin-top: 20px;
         margin-left:-1vw ;
-        border: 1px solid #fff;
         justify-content: space-evenly;
     }
     
     #mainCanvas {
         width: 410px;
         height: 30vh;
+        margin-left: 4%;
     }
     
     .introductionBox {
         width: 410px;
+        margin-left: 4%;
     }
 
+    .secondMainSub {
+        margin-right: 6%;
+    }
     .modal-body-one {
         width: 325px;
     }
