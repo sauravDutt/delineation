@@ -254,11 +254,12 @@ rgba(255, 255, 255, 0.004) */
 }
 
 .landingGif {
-    border: 1px solid #7f4bd261;
-    width: 40vw;
-    height: 500px;
+    width: 460px;
+    height: 310px;
     max-width: 88%;
-    border-radius: 15px;
+    background-image: url('./img/one.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
     max-height: 70%;
     display: grid;
     margin: 0 auto;
@@ -513,16 +514,19 @@ rgba(255, 255, 255, 0.004) */
     .main {
         grid-template-columns: auto;
         padding: 0;
+        width: 100%;
 
     }
     .landingGif {
-        margin-top: -10vh;
-        width: 70vh;
+        margin-top: -1vh;
+        width: 360px;
+        height: 460px;
+        
     }
     
     .introductionBox {
-        width: 70vh;
-        margin-top: -20vh;
+        width: 90vw;
+        margin-top: -30vh;
         margin-bottom: 0px;
     }
     .secondMainSub {
@@ -585,6 +589,7 @@ rgba(255, 255, 255, 0.004) */
     }
     .landingGif {
         width: 110vw;
+        height: 460px;
     }
     
     .introductionBox {
