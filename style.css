@@ -302,6 +302,20 @@ rgba(255, 255, 255, 0.004) */
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
 }
+.userLogin p {
+    color: rgba(255, 255, 255, 0.467);
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    user-select: none;
+    margin: 0;
+    margin-bottom: -5px;
+}
+.clickMe {
+    color: #8858ff;
+    cursor: pointer;
+}
 .gameLogo {
     text-align: center;
     font-family: 'Silkscreen', cursive;
