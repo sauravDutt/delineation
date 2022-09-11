@@ -345,7 +345,12 @@ rgba(255, 255, 255, 0.004) */
 } */
 .underDev {
     margin: 0 auto;
+    
     width: 40vw;
+    padding: 20px;
+    background: #121212;
+    box-shadow:  6px 6px 24px #070707,
+                -6px -6px 12px #1d1d1d;
 }
 .underDev h2 {
     color: #fff;
@@ -369,12 +374,21 @@ rgba(255, 255, 255, 0.004) */
 
 .secondMainP {
     width: 80%;
+    height: auto;
+    padding: 10px;
     margin: 0 auto;
-    margin-right: 5%;
-    margin-top: 20px;
+    line-height: 30px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.171);
+    color: rgba(255, 255, 255, 0.428);
     font-family: 'Raleway', sans-serif;
+}
+.secondMainP span {
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 100;
+    line-height: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 .secondMainPOne {
     width: 80%;
@@ -638,6 +652,11 @@ rgba(255, 255, 255, 0.004) */
     }
     .modal-body-one {
         width: 325px;
+    }
+    .underDev {
+
+        position: absolute;
+        right: 0px;
     }
     .mintBtn {
         margin-right: 0;
